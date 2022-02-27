@@ -3,7 +3,7 @@
   <br>
   <a href="ot"https://github.com/ZerroDevs/robloxattack ><img src="https://cdn.discordapp.com/attachments/947280391839035392/947496403511427102/unknown.png" alt="Roblox"></a>
   <br>
-  Roblox Attack
+  Roblox Script
   <br>
 </h1>
 <br/>
