@@ -1,7 +1,7 @@
 # Attack Simulator Script
 
-![Stars](https://img.shields.io/github/stars/Vision-Table/VisionTable)
-![Size](https://img.shields.io/github/repo-size/Vision-Table/VisionTable)
+![Stars](https://img.shields.io/github/stars/ZerroDevs/robloxattacks)
+![Size](https://img.shields.io/github/repo-size/ZerroDevs/robloxattacks)
 <br/>
 
 A Script For Roblxo Attack Simulator . Status UnDeacted
