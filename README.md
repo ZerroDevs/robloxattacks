@@ -4,7 +4,7 @@
 ![Size](https://img.shields.io/github/repo-size/ZerroDevs/robloxattacks)
 <br/>
 
-A Script For Roblxo Attack Simulator . Status UnDeacted
+A Script For Roblox Attack Simulator . Status UnDeacted
 
 ![Status](https://img.shields.io/uptimerobot/status/m787390924-6f64fc62565b4747868bae71)
 
