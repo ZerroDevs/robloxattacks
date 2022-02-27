@@ -1,3 +1,4 @@
+# By ZeroNux#1653 , Discord
 # Attack Simulator Script
 <h1 align="center">
   <br>
