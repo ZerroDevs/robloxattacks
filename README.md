@@ -1,5 +1,9 @@
 # By ZeroNux#1653 , Discord
 # Attack Simulator Script
+Open Any Expolit And Copy Paste This Link To Active Cheat !! . 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerroDevs/robloxattacks/main/script.lua"))()
+
 <h1 align="center">
   <br>
   <a href="ot"https://github.com/ZerroDevs/robloxattack ><img src="https://cdn.discordapp.com/attachments/947280391839035392/947496403511427102/unknown.png" alt="Roblox"></a>
