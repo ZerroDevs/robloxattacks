@@ -2,7 +2,7 @@
 # Attack Simulator Script
 Open Any Expolit And Copy Paste This Link To Active Cheat !! . 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerroDevs/robloxattacks/main/script.lua"))()
+### loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerroDevs/robloxattacks/main/script.lua"))()
 
 <h1 align="center">
   <br>
