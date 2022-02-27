@@ -1,5 +1,6 @@
 # By ZeroNux#1653 , Discord
 # Attack Simulator Script
+### This Script For That Game : https://www.roblox.com/games/8834250772/1M-Attack-Simulator#!/about
 
 ### Open Any Expolit And Copy Paste This Link To Active Cheat !! . 
 
