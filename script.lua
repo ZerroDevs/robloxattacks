@@ -62,6 +62,7 @@ local UIGradient_26 = Instance.new("UIGradient")
 local copy = Instance.new("TextButton")
 local UIGradient_27 = Instance.new("UIGradient")
 local UIGradient_28 = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
 
 --Properties:
 
@@ -471,9 +472,37 @@ UIGradient_27.Parent = copy
 UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 85, 255))}
 UIGradient_28.Parent = ZerTols
 
+UICorner.CornerRadius = UDim.new(0, 21)
+UICorner.Parent = ZeroNux
+
 -- Scripts:
 
-local function RAJHB_fake_script() -- TextButton.LocalScript 
+local function IAKVN_fake_script() -- Zeronux.OpenClose 
+	local script = Instance.new('LocalScript', Zeronux)
+
+	local MainFrame = script.Parent.ZeroNux
+	local Opened = true
+	
+	local PositionClosed = UDim2.new(-0.317, 0,0.351, 0)
+	local PositionOpened = UDim2.new(0.012, 0,0.018, 0)
+	
+	local UserInputService = game:GetService("UserInputService")
+	
+	UserInputService.InputBegan:Connect(function(KeyCode)
+		if KeyCode.KeyCode == Enum.KeyCode.RightControl then
+			if Opened then
+				MainFrame:TweenPosition((PositionClosed),"InOut", "Quint")
+				Opened = false
+			else
+				MainFrame:TweenPosition((PositionOpened), "InOut", "Quart")
+				Opened = true
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(IAKVN_fake_script)()
+local function PCPCEPS_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	
@@ -491,8 +520,8 @@ local function RAJHB_fake_script() -- TextButton.LocalScript
 	
 	
 end
-coroutine.wrap(RAJHB_fake_script)()
-local function KTOPBKY_fake_script() -- teleport.drag 
+coroutine.wrap(PCPCEPS_fake_script)()
+local function CCCGBO_fake_script() -- teleport.drag 
 	local script = Instance.new('LocalScript', teleport)
 
 	script.Parent.Active = true
@@ -500,8 +529,8 @@ local function KTOPBKY_fake_script() -- teleport.drag
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(KTOPBKY_fake_script)()
-local function YNHAQIB_fake_script() -- tpr.Script 
+coroutine.wrap(CCCGBO_fake_script)()
+local function ATVWZE_fake_script() -- tpr.Script 
 	local script = Instance.new('Script', tpr)
 
 	
@@ -528,8 +557,8 @@ local function YNHAQIB_fake_script() -- tpr.Script
 		end
 	end)
 end
-coroutine.wrap(YNHAQIB_fake_script)()
-local function OXRA_fake_script() -- Scripts.Gravity 
+coroutine.wrap(ATVWZE_fake_script)()
+local function UGSFJOD_fake_script() -- Scripts.Gravity 
 	local script = Instance.new('LocalScript', Scripts)
 
 	
@@ -560,8 +589,8 @@ local function OXRA_fake_script() -- Scripts.Gravity
 	
 	game.StarterGui:SetCore("SendNotification", {Title="ZeroNux#1653"; Text="The Gravity Switch is ready!\nPress \"e\" to toggle"; Duration=5;})
 end
-coroutine.wrap(OXRA_fake_script)()
-local function VXWWDC_fake_script() -- Scripts.Anti Afk 
+coroutine.wrap(UGSFJOD_fake_script)()
+local function VWEUT_fake_script() -- Scripts.Anti Afk 
 	local script = Instance.new('LocalScript', Scripts)
 
 	assert(firesignal, "Your exploit does not support firesignal.")
@@ -574,8 +603,8 @@ local function VXWWDC_fake_script() -- Scripts.Anti Afk
 	
 	game.StarterGui:SetCore("SendNotification", {Title="ZeroNux#1653"; Text="Anti Afk Turned On ."; Duration=5;})
 end
-coroutine.wrap(VXWWDC_fake_script)()
-local function XTUQF_fake_script() -- Scripts.Tptool 
+coroutine.wrap(VWEUT_fake_script)()
+local function MNHQIP_fake_script() -- Scripts.Tptool 
 	local script = Instance.new('LocalScript', Scripts)
 
 	mouse = game.Players.LocalPlayer:GetMouse()
@@ -590,8 +619,8 @@ local function XTUQF_fake_script() -- Scripts.Tptool
 	tool.Parent = game.Players.LocalPlayer.Backpack
 	game.StarterGui:SetCore("SendNotification", {Title="ZeroNux#1653"; Text="You Got A Tp Tool ."; Duration=5;})
 end
-coroutine.wrap(XTUQF_fake_script)()
-local function IJUOR_fake_script() -- Scripts.Fly 
+coroutine.wrap(MNHQIP_fake_script)()
+local function FRZVWAQ_fake_script() -- Scripts.Fly 
 	local script = Instance.new('LocalScript', Scripts)
 
 	repeat wait()
@@ -676,8 +705,8 @@ local function IJUOR_fake_script() -- Scripts.Fly
 	Fly()
 	game.StarterGui:SetCore("SendNotification", {Title="ZeroNux#1653"; Text="Fly Script Turned On .!\nPress \"F\" to toggle"; Duration=5;})
 end
-coroutine.wrap(IJUOR_fake_script)()
-local function QOGXFO_fake_script() -- Scripts.Infjump 
+coroutine.wrap(FRZVWAQ_fake_script)()
+local function DRGXKQ_fake_script() -- Scripts.Infjump 
 	local script = Instance.new('LocalScript', Scripts)
 
 	_G.infinjump = false
@@ -713,8 +742,8 @@ local function QOGXFO_fake_script() -- Scripts.Infjump
 	end)
 	game.StarterGui:SetCore("SendNotification", {Title="ZeroNux#1653"; Text="The Infinity Switch is ready!\nPress \"F\" to toggle"; Duration=5;})
 end
-coroutine.wrap(QOGXFO_fake_script)()
-local function FSUDJOD_fake_script() -- EGGS.Script 
+coroutine.wrap(DRGXKQ_fake_script)()
+local function JMBGRR_fake_script() -- EGGS.Script 
 	local script = Instance.new('Script', EGGS)
 
 	
@@ -741,8 +770,8 @@ local function FSUDJOD_fake_script() -- EGGS.Script
 		end
 	end)
 end
-coroutine.wrap(FSUDJOD_fake_script)()
-local function KMBBIXU_fake_script() -- egg1.Script 
+coroutine.wrap(JMBGRR_fake_script)()
+local function ZJSO_fake_script() -- egg1.Script 
 	local script = Instance.new('Script', egg1)
 
 	
@@ -755,8 +784,8 @@ local function KMBBIXU_fake_script() -- egg1.Script
 		end)
 	
 end
-coroutine.wrap(KMBBIXU_fake_script)()
-local function XPJZ_fake_script() -- egg2.Script 
+coroutine.wrap(ZJSO_fake_script)()
+local function PNJTXIV_fake_script() -- egg2.Script 
 	local script = Instance.new('Script', egg2)
 
 	
@@ -769,8 +798,8 @@ local function XPJZ_fake_script() -- egg2.Script
 	end)
 	
 end
-coroutine.wrap(XPJZ_fake_script)()
-local function JDVSWUC_fake_script() -- egg3.Script 
+coroutine.wrap(PNJTXIV_fake_script)()
+local function QZDASQI_fake_script() -- egg3.Script 
 	local script = Instance.new('Script', egg3)
 
 	
@@ -783,8 +812,8 @@ local function JDVSWUC_fake_script() -- egg3.Script
 	end)
 	
 end
-coroutine.wrap(JDVSWUC_fake_script)()
-local function BOKL_fake_script() -- egg4.Script 
+coroutine.wrap(QZDASQI_fake_script)()
+local function SWNIEF_fake_script() -- egg4.Script 
 	local script = Instance.new('Script', egg4)
 
 	
@@ -797,8 +826,8 @@ local function BOKL_fake_script() -- egg4.Script
 	end)
 	
 end
-coroutine.wrap(BOKL_fake_script)()
-local function YGTR_fake_script() -- egg5.Script 
+coroutine.wrap(SWNIEF_fake_script)()
+local function DHLGY_fake_script() -- egg5.Script 
 	local script = Instance.new('Script', egg5)
 
 	
@@ -811,8 +840,8 @@ local function YGTR_fake_script() -- egg5.Script
 	end)
 	
 end
-coroutine.wrap(YGTR_fake_script)()
-local function UFJZB_fake_script() -- egg6.Script 
+coroutine.wrap(DHLGY_fake_script)()
+local function KGIBMM_fake_script() -- egg6.Script 
 	local script = Instance.new('Script', egg6)
 
 	
@@ -825,8 +854,8 @@ local function UFJZB_fake_script() -- egg6.Script
 	end)
 	
 end
-coroutine.wrap(UFJZB_fake_script)()
-local function XLXPOP_fake_script() -- egg7.Script 
+coroutine.wrap(KGIBMM_fake_script)()
+local function PKSPC_fake_script() -- egg7.Script 
 	local script = Instance.new('Script', egg7)
 
 	
@@ -839,8 +868,8 @@ local function XLXPOP_fake_script() -- egg7.Script
 	end)
 	
 end
-coroutine.wrap(XLXPOP_fake_script)()
-local function RHBD_fake_script() -- Eggs.LocalScript 
+coroutine.wrap(PKSPC_fake_script)()
+local function ENOODKJ_fake_script() -- Eggs.LocalScript 
 	local script = Instance.new('LocalScript', Eggs)
 
 	script.Parent.Active = true
@@ -848,8 +877,8 @@ local function RHBD_fake_script() -- Eggs.LocalScript
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(RHBD_fake_script)()
-local function JVEV_fake_script() -- Eggs.drag 
+coroutine.wrap(ENOODKJ_fake_script)()
+local function CSIZ_fake_script() -- Eggs.drag 
 	local script = Instance.new('LocalScript', Eggs)
 
 	script.Parent.Active = true
@@ -857,8 +886,8 @@ local function JVEV_fake_script() -- Eggs.drag
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(JVEV_fake_script)()
-local function UMAS_fake_script() -- ZeroNux.drag 
+coroutine.wrap(CSIZ_fake_script)()
+local function IEQZBEN_fake_script() -- ZeroNux.drag 
 	local script = Instance.new('LocalScript', ZeroNux)
 
 	script.Parent.Active = true
@@ -866,8 +895,8 @@ local function UMAS_fake_script() -- ZeroNux.drag
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(UMAS_fake_script)()
-local function FXZG_fake_script() -- ToolsZ.Script 
+coroutine.wrap(IEQZBEN_fake_script)()
+local function BVQDYF_fake_script() -- ToolsZ.Script 
 	local script = Instance.new('Script', ToolsZ)
 
 	
@@ -894,8 +923,8 @@ local function FXZG_fake_script() -- ToolsZ.Script
 		end
 	end)
 end
-coroutine.wrap(FXZG_fake_script)()
-local function KRGHM_fake_script() -- gen.LocalScript 
+coroutine.wrap(BVQDYF_fake_script)()
+local function XOLXYU_fake_script() -- gen.LocalScript 
 	local script = Instance.new('LocalScript', gen)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -903,8 +932,8 @@ local function KRGHM_fake_script() -- gen.LocalScript
 	end)
 	
 end
-coroutine.wrap(KRGHM_fake_script)()
-local function DXYCU_fake_script() -- copy.LocalScript 
+coroutine.wrap(XOLXYU_fake_script)()
+local function HMMLBZ_fake_script() -- copy.LocalScript 
 	local script = Instance.new('LocalScript', copy)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -912,8 +941,8 @@ local function DXYCU_fake_script() -- copy.LocalScript
 	end)
 	
 end
-coroutine.wrap(DXYCU_fake_script)()
-local function WSMKD_fake_script() -- ZerTols.drag 
+coroutine.wrap(HMMLBZ_fake_script)()
+local function JFRZ_fake_script() -- ZerTols.drag 
 	local script = Instance.new('LocalScript', ZerTols)
 
 	script.Parent.Active = true
@@ -921,29 +950,4 @@ local function WSMKD_fake_script() -- ZerTols.drag
 	script.Parent.Draggable = true
 	
 end
-coroutine.wrap(WSMKD_fake_script)()
-local function THDIHO_fake_script() -- Zeronux.LocalScript 
-	local script = Instance.new('LocalScript', Zeronux)
-
-	local MainFrame = script.Parent.ZeroNux
-	local Opened = true
-	
-	local PositionClosed = UDim2.new(-0.317, 0,0.351, 0)
-	local PositionOpened = UDim2.new(0.012, 0,0.018, 0)
-	
-	local UserInputService = game:GetService("UserInputService")
-	
-	UserInputService.InputBegan:Connect(function(KeyCode)
-		if KeyCode.KeyCode == Enum.KeyCode.RightControl then
-			if Opened then
-				MainFrame:TweenPosition((PositionClosed),"InOut", "Quint")
-				Opened = false
-			else
-				MainFrame:TweenPosition((PositionOpened), "InOut", "Quart")
-				Opened = true
-			end
-		end
-	end)
-	
-end
-coroutine.wrap(THDIHO_fake_script)()
+coroutine.wrap(JFRZ_fake_script)()
