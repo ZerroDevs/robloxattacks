@@ -29,7 +29,6 @@ First Script For Roblox I Made .
 
 Have Fun (:
 
-Copyright (c) 2022 ZeroDevs
-
 ![LICENSE](https://img.shields.io/github/license/ZerroDevs/robloxattacks)
 
+Copyright (c) 2022 ZeroDevs
