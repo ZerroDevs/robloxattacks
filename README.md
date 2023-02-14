@@ -2,7 +2,6 @@
 # Attack Simulator Script
 ### This Script For That Game : https://www.roblox.com/games/8834250772/1M-Attack-Simulator#!/about
 
-## Script Pastebin Link :  https://pastebin.com/qprX9WiC
 
 ### Open Any Expolit And Copy Paste This Link To Active Cheat !! . 
 
